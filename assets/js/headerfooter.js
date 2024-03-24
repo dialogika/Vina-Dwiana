@@ -66,7 +66,7 @@ class Header extends HTMLElement {
               </li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>Position</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span>Video</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
                 <li><a href="client-manager.html">
                     <span>Client Manager</span>
@@ -189,7 +189,7 @@ class Header extends HTMLElement {
               <div class="card">
                 <a href="#position-collapse" data-bs-toggle="collapse">
                   <div class="card-body d-flex justify-content-between">
-                    <span>Position</span><i class='bx bxs-chevron-down bx-tada'></i>
+                    <span>Video</span><i class='bx bxs-chevron-down bx-tada'></i>
                   </div>
                 </a>
                 <div class="collapse" id="position-collapse">
