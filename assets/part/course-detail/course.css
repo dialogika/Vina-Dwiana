@@ -1253,7 +1253,7 @@
 }
 
 .course-details-area .course-list-items .panel-heading a {
-  background: #ffffff;
+  background: transparent;
   padding: 20px;
 }
 
@@ -1275,6 +1275,7 @@
 
 .course-details-area .course-list-items .intro .item {
   display: inline-block;
+  font-size: 12px;
 }
 
 .course-details-area .course-list-items .intro .item i {
