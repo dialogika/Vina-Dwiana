@@ -40,6 +40,7 @@
   <link href="assets/part/course-detail/responsive.css" rel="stylesheet"/>
   <link href="assets/part/course-detail/flaticon-set.css" rel="stylesheet" />
   <link href="assets/part/course-detail/course.css" rel="stylesheet"/>
+  <link href="assets/part/contact-append/contact.css" rel="stylesheet">
   
   <script src="https://kit.fontawesome.com/cdde75dea2.js" crossorigin="anonymous"></script>
   
@@ -68,7 +69,7 @@
 
             function SubForm (){
               $.ajax({
-                url:"https://api.apispreadsheets.com/data/qBMNmHWNwLnA3S2s/",
+                url:"https://api.apispreadsheets.com/data/JYfPTNSLW4GoVohc/",
                 type:"post",
                 data:$("#myForm").serializeArray(),
                 success: function(){
@@ -239,8 +240,8 @@
                                 <span>Rp. 39.000</span>
                             </div>
                             <div class="align-right">
-                                <a class="btn btn-theme-yellow effect btn-sm" href="#">
-                                    <i class="fas fa-chart-bar"></i> Enroll
+                                <a class="btn btn-theme-yellow effect btn-sm" href="#register" data-bs-toggle="modal" id="daftar">
+                                    <i class="fas fa-chart-bar"></i> Daftar
                                 </a>
                             </div>
                         </div>
@@ -759,7 +760,7 @@
   <main-footer></main-footer>
   <!-- ======= End Footer & Counter Area ======= -->
 
-  <a href="#hero" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#daftar" class="back-to-top d-flex align-items-center justify-content-center"><i class="bx bxl-whatsapp bx-tada"></i></a>
   
   <div class="modal fade" role="dialog" tabindex="-1" id="showtime">
       <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
@@ -782,7 +783,80 @@
       </div>
   </div>
   
-  
+  <div class="modal fade" role="dialog" tabindex="-1" id="register">
+      <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+          <div class="modal-content">
+              <div class="modal-body">
+                  <button class="btn btn-close"
+                      id="close"
+                      style="display: none;"
+                      data-bs-dismiss="modal"
+                      aria-label="Close">
+                  </button>
+                  <div id="contact" class="contact-append section-bg">
+
+                    
+                    <div class="container section-title" data-aos="fade-up">
+                      <h6 style="margin-top:20px;">Form</h6>
+                      <h2 id="textChange">Registration</h2>
+                    </div>
+
+                    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                      <div class="row gy-4">
+
+                        <div class="">
+                          <form action="javascript:void" method="post" id="myForm" enctype="text/plain" role="form" class="php-email-form needs-validation">
+                            <div class="row gy-4">
+
+                              <div class="col-md-6">
+                                <input type="text" name="Name" class="form-control" id="names" pattern="[a-zA-Z\s]{3,100}" placeholder="Nama Lengkap*" required>
+                              </div>
+
+                              <div class="col-md-6 ">
+                                <input type="tel" class="form-control" name="Whatsapp" id="whatsapps" pattern="[0-9]{10,15}" placeholder="Whatsapp*" required="">
+                              </div>
+
+                              <div class="col-md-6">
+                                <input type="text" class="form-control" name="Location" id="locations" pattern="[a-zA-Z\s]{3,100}" placeholder="Domisili*" required>
+                              </div>
+
+                              <div class="col-md-6">
+                                <select name="Program" id="programs" class="form-control" disabled>
+                                  <option value="" selected value="">Nama Program : HARGA </option>
+                                </select>
+                              </div>
+
+                              <select class="d-none" name="Timestamp">
+                                <option id="timestamp"></option>
+                              </select>
+
+                              <div class="col-md-12">
+                                <textarea class="form-control" name="Ket" id="messages" rows="7"
+                                placeholder="Masalah didalam public speaking?"></textarea>
+                              </div>
+
+                              <div class="col-md-12 text-center">
+                                <div class="loading">Loading</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                                <button type="submit" id="submits" onclick="SubForm()" class="send_contact">Send Whatsapp</button>
+
+                              </div>
+
+                            </div>
+                          </form>
+                        </div><!-- End Contact Form -->
+
+                      </div>
+
+                    </div>
+                  </div><!-- End Contact Section -->
+              </div>
+          </div>
+      </div>
+  </div>
   
   <!-- Part -->
   <script src="assets/part/counting-down/count.js"></script>
