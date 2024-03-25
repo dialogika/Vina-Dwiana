@@ -36,9 +36,10 @@
   <link href="assets/vendor/swiper/swiper-bundle.css" rel="stylesheet">
   <!-- Part CSS Files -->
 
-  <link href="assets/part/course-detail/course.css" rel="stylesheet"/>
+  
   <link href="assets/part/course-detail/responsive.css" rel="stylesheet"/>
   <link href="assets/part/course-detail/flaticon-set.css" rel="stylesheet" />
+  <link href="assets/part/course-detail/course.css" rel="stylesheet"/>
   
   <script src="https://kit.fontawesome.com/cdde75dea2.js" crossorigin="anonymous"></script>
   
@@ -312,14 +313,17 @@
                                             <div class="course-list-items acd-items acd-arrow">
                                                 <div class="panel-group symb" id="accordion">
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading">
+                                                        <div class="panel-heading justify-content-between d-flex align-items-center">
                                                             <h4 class="panel-title">
                                                                 <a data-bs-toggle="collapse" data-parent="#accordion" href="#ac1">
                                                                     <strong>01</strong> Java Programming
                                                                 </a>
                                                             </h4>
+                                                            <a data-bs-toggle="collapse" data-parent="#accordion" href="#ac1">
+                                                                <i class='bx bxs-caret-down-circle'></i>
+                                                            </a>
                                                         </div>
-                                                        <div id="ac1" class="panel-collapse collapse ">
+                                                        <div id="ac1" class="panel-collapse collapsed actived">
                                                             <div class="panel-body">
                                                                 <ul style="list-style-type: none;">
                                                                     <li>
@@ -345,7 +349,15 @@
                                                                                 <p>
                                                                                     Duration: 1 hours 30 min
                                                                                 </p>
-                                                                               <a href="https://www.youtube.com/watch?v=-oeLrO7nHv0" class="glightbox">Buy Video</a>
+                                                                                <a class="btn btn-outline-dark btn-lg"
+                                                                                    type="button"
+                                                                                    data-video="PoQM_rs-ojI"
+                                                                                    data-start="0"
+                                                                                    data-end="0"
+                                                                                    data-bs-toggle="modal"
+                                                                                    data-bs-target="#showtime"
+                                                                                    data-controls="0">Watch Video
+                                                                                </a>
                                                                             </div>
                                                                         </div>
                                                                     </li>
@@ -372,7 +384,15 @@
                                                                                 <p>
                                                                                     Duration: 3 hours 45 min
                                                                                 </p>
-                                                                                <a href="https://t2307700.p.clickup-attachments.com/t2307700/8b633f57-0aae-4677-99a2-e5b0ab9380f8/Penjelasan%20effect.mp4?open=true" class="glightbox" allow="autoplay">Video Course</a>
+                                                                                <a class="btn btn-outline-dark btn-lg"
+                                                                                    type="button"
+                                                                                    data-video="jSzC-KnVjEU"
+                                                                                    data-start="0"
+                                                                                    data-end="0"
+                                                                                    data-bs-toggle="modal"
+                                                                                    data-bs-target="#showtime"
+                                                                                    data-controls="0">Watch Video
+                                                                                </a>
                                                                             </div>
                                                                         </div>
                                                                     </li>
@@ -387,12 +407,15 @@
                                             <div class="course-list-items acd-items acd-arrow">
                                                 <div class="panel-group symb" id="accordion">
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading">
+                                                        <div class="panel-heading justify-content-between d-flex align-items-center">
                                                             <h4 class="panel-title">
                                                                 <a data-bs-toggle="collapse" data-parent="#accordion" href="#ac2">
                                                                     <strong>02</strong> PHP Programming
                                                                 </a>
                                                             </h4>
+                                                            <a data-bs-toggle="collapse" data-parent="#accordion" href="#ac2">
+                                                                <i class='bx bxs-caret-down-circle'></i>
+                                                            </a>
                                                         </div>
                                                         <div id="ac2" class="panel-collapse collapse">
                                                             <div class="panel-body">
@@ -420,7 +443,17 @@
                                                                                 <p>
                                                                                     Duration: 1 hours 30 min
                                                                                 </p>
-                                                                                <a href="https://drive.google.com/file/d/1nwN_ziICXwMHhb57J_HmbWHIFMWz6DNx/preview" class="glightbox" allow="autoplay">Video Course</a>
+                                                                                
+                                                                                <a class="btn btn-outline-dark btn-lg"
+                                                                                    type="button"
+                                                                                    data-video="PoQM_rs-ojI"
+                                                                                    data-start="0"
+                                                                                    data-end="0"
+                                                                                    data-bs-toggle="modal"
+                                                                                    data-bs-target="#showtime"
+                                                                                    data-controls="0">Watch Video
+                                                                                </a>
+
                                                                             </div>
                                                                         </div>
                                                                     </li>
@@ -447,7 +480,15 @@
                                                                                 <p>
                                                                                     Duration: 3 hours 45 min
                                                                                 </p>
-                                                                                <a href="https://www.youtube.com/watch?v=PoQM_rs-ojI" class="glightbox">Video Course</a>
+                                                                                <a class="btn btn-outline-dark btn-lg"
+                                                                                    type="button"
+                                                                                    data-video="PoQM_rs-ojI"
+                                                                                    data-start="0"
+                                                                                    data-end="0"
+                                                                                    data-bs-toggle="modal"
+                                                                                    data-bs-target="#showtime"
+                                                                                    data-controls="0">Watch Video
+                                                                                </a>
                                                                             </div>
                                                                         </div>
                                                                     </li>
@@ -537,42 +578,44 @@
                                     <div class="info title">
                                         <div class="course-rating-list">
                                             <div class="average-rating">
-                                                <h2>4.5</h2>
+                                                <h2>4.9</h2>
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star-half-alt"></i>
-                                                <h4>28 Rating</h4>
+                                                <h4>280 Rating</h4>
+                                                <small class="text-muted">Last Updated <b>March 25, 2024</b></small>
+                                                <small class="text-muted">(<a href="https://maps.app.goo.gl/pvK6UJE84tys6qcW9" target="_blank">More Info</a>)</small>
                                             </div>
                                             <div class="rating-status">
                                                 <!-- Progress Bar Start -->
                                                 <div class="progress-box">
-                                                    <h5>5 Star <span class="pull-right">90%</span></h5>
+                                                    <h5>5 Star <span class="float-end">95%</span></h5>
                                                     <div class="progress">
-                                                        <div class="progress-bar" role="progressbar" class="progress-bar" style="width: 90%"></div>
+                                                        <div class="progress-bar" role="progressbar" class="progress-bar" style="width: 95%"></div>
                                                     </div>
                                                 </div>
                                                 <div class="progress-box">
-                                                    <h5>4 Star <span class="pull-right">10%</span></h5>
+                                                    <h5>4 Star <span class="float-end">3%</span></h5>
                                                     <div class="progress">
-                                                        <div class="progress-bar" role="progressbar" class="progress-bar" style="width: 10%"></div>
+                                                        <div class="progress-bar" role="progressbar" class="progress-bar" style="width: 3%"></div>
                                                     </div>
                                                 </div>
                                                 <div class="progress-box">
-                                                    <h5>3 Star <span class="pull-right">0%</span></h5>
+                                                    <h5>3 Star <span class="float-end">2%</span></h5>
                                                     <div class="progress">
-                                                        <div class="progress-bar" role="progressbar" class="progress-bar" style="width: 1%"></div>
+                                                        <div class="progress-bar" role="progressbar" class="progress-bar" style="width: 2%"></div>
                                                     </div>
                                                 </div>
                                                 <div class="progress-box">
-                                                    <h5>2 Star <span class="pull-right">0%</span></h5>
+                                                    <h5>2 Star <span class="float-end">0%</span></h5>
                                                     <div class="progress">
                                                         <div class="progress-bar" role="progressbar" class="progress-bar" style="width: 0%"></div>
                                                     </div>
                                                 </div>
                                                 <div class="progress-box">
-                                                    <h5>1 Star <span class="pull-right">0%</span></h5>
+                                                    <h5>1 Star <span class="float-end">0%</span></h5>
                                                     <div class="progress">
                                                         <div class="progress-bar" role="progressbar" class="progress-bar" style="width: 0%"></div>
                                                     </div>
@@ -718,370 +761,29 @@
 
   <a href="#hero" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   
-  <!-- ======= Modal Basic Rules ======= -->
-  <div class="modal fade" id="basic-rules" tabindex="-1" aria-labelledby="basic-rules" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Basic Rules</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body resume">
-          <div class="row">
-          <div class="col-lg-6">
-            <!-- <h3 class="resume-title">Growth Mindset</h3> -->
-            <div class="resume-item">
-              <h4>Mengertilah Bahwa Internship Adalah Latihan Kerja</h4>
-              <p><em>Mengerti bahwa internship adalah latihan kerja, <b>bukan latihan organisasi kampus,</b> yang berarti kamu memahami bahwa berkomitmen internship <b>setara dengan komitmen kerja</b></em>
-              </p>
-            </div>
-            
-            <div class="resume-item redres">
-              <h4>Tiga Bulan Internship</h4>
-              <p>
-                Mampu melakukan internship selama 3 bulan di Dialogika. Apabila belum bisa atau ada permintaan khusus dari kampus diharapkan melapor terlebih dahulu
-              </p>
-            </div>
-
-            <div class="resume-item">
-              <h4>Mendapatkan Izin Orang Tua</h4>
-                <img src="https://img.freepik.com/free-photo/happiness-asian-family-candid-daughter-hug-grandparent-mother-farther-senior-elder-cozy-relax-sofa-couch-surprise-visiting-living-room-hometogether-hug-cheerful-asian-family-home_609648-2050.jpg?w=1800&t=st=1671641337~exp=1671641937~hmac=3d4f23dec0d2372f4979f146ba7d5ae8a05ddec6c1536213b1eb06ca081fd543" class="img-fluid rounded" alt="" style="margin-bottom:10px;" />
-                  <p>Pastikan sebelum join kamu sudah mendapatkan izin dari orang tua, kami tidak ingin internshipmu terhenti karena tidak dapat izin dari orang tua</p>
-            </div>
-
-            <div class="resume-item">
-              <h4>Tidak Bucin</h4>
-              <p>
-                Aturan ini serius! Jika kamu punya pacar dan masih harus dapat izin dari pacarmu untuk ikutan internship atau kegiatan apapun. Saran kami jangan join ke Dialogika.
-              </p>
-            </div>
-
-            <div class="resume-item redres">
-              <h4>Care Dengan Penampilan</h4>
-              <p>
-                Menjaga dan terus memperbaiki penampilan adalah bagian dari core yang ada di Dialogika, karena product Dialogika adalah public speaking. Dan berlatih menjaga penampilan adalah bagian dari representasi yang ditampilkan di Dialogika
-              </p>
-            </div>
-
-            <div class="resume-item">
-              <h4>Smile : Happy & Fun</h4>
-              <p>Making one person smile can change the world. Maybe not the whole world, but their world. Mari kita bersama-sama membiasakan tersenyum, memberi salam, dan menyapa kepada siapapun yang kita jumpai.</p>
-              <blockquote>Wajib bangeet untuk senyum selama kerja. Dan wajib izin apabila nggak bisa senyum atau mood lagi jelek.</blockquote>
-              <img src="https://img.freepik.com/free-photo/group-asia-young-creative-people-smart-casual-wear-smiling-arms-crossed-creative-office-workplace-diverse-asian-male-female-stand-together-startup-coworker-teamwork-concept_7861-2570.jpg?w=1800&t=st=1671641237~exp=1671641837~hmac=7e12daedc58f74ec0a02968fba9eb63e453beafc909efb827dea99ef683ed552" class="img-fluid rounded" alt="">
-            </div>
-
-            <div class="resume-item">
-              <h4>Wajib Install Aplikasi</h4>
-              <p>Berikut ini adalah aplikasi wajib yang harus terinstall untuk seluruh tim</p>
-              <ul>
-                <li>Clickup</li>
-                <li>Messenger (from Facebook)</li>
-                <li>Craft Do (pengguna iOS)</li>
-              </ul>
-            </div>
-
-            <div class="resume-item redres">
-              <h4>No Excuse</h4>
-              <p>
-                Senantiasa “no excuse” yaitu tidak beralasan untuk sesuatu yang dianggap bisa menjadi solusi pekerjaan. (dengan catatan tidak melanggar agama dan keyakinan).
-              </p>
-              <img src="https://img.freepik.com/premium-photo/caucasian-man-having-hearing-problem-listening-something_262388-3266.jpg?w=1800" class="img-fluid rounded" alt="">
-            </div>
-
-            <div class="resume-item">
-              <h4>No Blaming</h4>
-              <p><em>Senantiasa “no blame” yaitu tidak mengeluhkan dan menyalahkan orang lain / rekan kerja terkait pekerjaan atau apapun yang dirasa diluar kekuasaan kita.</em></p>
-              <blockquote>
-                <p><b>Jangan menjadi korban, jadilah tersangka</b></p>
-                <p>－Anonymous</p>
-              </blockquote>
-            </div>
-
-            <div class="resume-item redres">
-              <h4>Budayakan Salah Saya</h4>
-              <p>
-                Apabila terjadi sesuatu yang salah, baik internal dan eksternal maka jawablah dengan "Salah Saya".
-              </p>
-              <img src="https://img.freepik.com/premium-photo/muslim-woman-wearing-hijab-holding-chest-eyes-closed-with-patient-expression_8595-25915.jpg?w=1800" class="img-fluid rounded" alt="">
-            </div>
-
-            <div class="resume-item redres">
-              <h4>Amat Sangat Wajib Fast Response</h4>
-              <p>
-                Catatan, respose dapat berupa:
-              </p>
-              <ul>
-                <li><b>Komentar :</b> noted kak</li>
-                <li><b>Reaction :</b> 👍🏻👎🏼 ❤️ 😊😆😢 😡</li>
-              </ul>
-
-              <img class="img-fluid rounded" src="https://img.freepik.com/premium-photo/phone-virtual-notifications-social-media_488220-34245.jpg?w=1800"/>
-
-              <blockquote>Apabila tidak bisa fast response maka <b>wajib izin</b></blockquote>
-            </div>
-
-            <div class="resume-item">
-              <h4>Berkomunikasi Via Messenger</h4>
-              <p>
-                Setiap chatting di dalam kerjaan, harus menggunakan messenger, dan diwajibkan untuk memantau messenger dan meng-aktifkan notifikasi messenger
-              </p>
-            </div>
-
-            <div class="resume-item">
-              <h4>Tidak Menjadi Silent Reader</h4>
-              <p>
-                Upayakan untuk exist di dalam group kerja tidak menjadi silent reader saat ada pembicaraan di group messenger
-              </p>
-            </div>
-
-          </div>
-          <div class="col-lg-6">
-
-            <div class="resume-item">
-              <h4>Pastikan Koneksi Internet Aman</h4>
-              <p>
-                Pastikan koneksi internetmu aman, karena internship di Dialogika bersifat mix, WFO dan WFH
-              </p>
-            </div>
-
-            <div class="resume-item redres">
-              <h4>Always ON CAM</h4>
-              <p>
-                Selalu On Cam apabila melakukan meeting online bersama tim lainnya
-              </p>
-              <img src="https://img.freepik.com/premium-photo/beautiful-asian-woman-vlogger-motion-her-hand-smile-camera-while-making-video-call-young-woman-relaxing-living-room-rising-her-hand-while-using-video-call-her-family_120378-1251.jpg?w=1800" class="img-fluid rounded">
-            </div>
-
-            <div class="resume-item">
-              <h4>Selalu Explore Sebelum Bertanya</h4>
-              <p>
-                Latihan untuk mencari tahu sebelum bertanya, selalu memanfaatkan internet resources sebelum menanyakan hal-hal teknis.</p>
-            </div>
-
-            <div class="resume-item redres">
-              <h4>Apabila Tidak Mengerti Maka Bertanyalah di Group Chat"</h4>
-              <p>Dilarang keras bertanya via private chat terutama saat terkait dengan perkerjaan</p>
-              <img src="https://img.freepik.com/premium-photo/many-people-showing-blank-speech-bubble-process-discussion-commenting-best-thought-good-idea-positive-feedback-opinion-public-surrounding-people_52701-201.jpg?w=1800" class="img-fluid rounded">
-            </div>
-
-            <div class="resume-item">
-              <h4>Berlatih Membuat Laporan</h4>
-              <p>
-                Apapun profesimu dimasa depan, membuat laporan adalah bagian dari perkerjaan yang akan selalu kamu lakukan. Baik itu entrepreneur, seniman dan lain-lain.</p>
-                <blockquote>
-                  <p>Perkerjaan ini tidak menyenangkan namun berlatihlah untuk melakukannya</p>
-                </blockquote>
-            </div>
-
-            <div class="resume-item redres">
-              <h4>Respect: Tidak Pegang HP Saat Seseorang Berbicara</h4>
-              <p>
-                Sangat dilarang KERAS untuk FOMO dan melihat HP di saat ada yang sedang berbicara.
-              </p>
-              <img src="https://img.freepik.com/premium-photo/phone-banned-forbidden-sign-symbol-sticker-wall-isolated_63762-2515.jpg?w=1800" class="img-fluid rounded">
-            </div>
-
-            <div class="resume-item redres">
-              <h4>Deal Done</h4>
-              <p>
-                Biasakan dan berlatihlah untuk menyelesaikan apa yang sudah dikomitmenkan kepada diri kita sendiri dan ini sangatlah penting untuk menjadi pribadi yang lebih baik.
-              </p>
-              <blockquote>Contoh <b>BUKAN Deal Done:</b> Kak Design nya udah selesai <b>tinggal</b> di upload.</blockquote>
-              <p>Kata-kata "tinggal" itu <b>bukanlah</b> deal done</p>
-              <img src="https://quotefancy.com/media/wallpaper/3840x2160/5183024-Nastia-Liukin-Quote-Finish-what-you-start-no-matter-how-painful-it.jpg" class="img-fluid rounded">
-            </div>
-
-            <div class="resume-item">
-              <h4>Panggilan "Kak"</h4>
-              <p>
-                Mari kita panggil semua teman-teman kita dengan panggilan yang lebih layak, bukan mas dan mbak, tetapi "kakak".
-              </p>
-              <blockquote>Kata "kakak" membuat kita derajat kita setara, dan memiliki konotasi yang baik.</blockquote>
-            </div>
-
-            <div class="resume-item">
-              <h4>Do Not Wasting Time</h4>
-              <p>
-               <b>Dilarang untuk menghabiskan waktu terlalu lama</b> untuk ngobrol, me-rokok, leyeh-leyeh, update story dan lain sebagainya terutama diwaktu istirahat
-              </p>
-              <img src="https://img.freepik.com/premium-photo/man-holding-clock-blue-background_218381-10030.jpg?w=1480" class="img-fluid rounded">
-            </div>
-
-            <div class="resume-item">
-              <h4>Jaga Nama Baik</h4>
-              <p>
-                 DIALOGIKA adalah milik kita bersama. Untuk itu, mari kita jaga nama baik DIALOGIKA bersama-sama.
-              </p>
-            </div>
-
-            <div class="resume-item redres">
-              <h4>Tidak Menggunakan Bahasa Daerah</h4>
-              <p>
-                Pastikan selalu menggunakn bahasa indonesia atau bahasa asing, dan jangan menggunakan bahasa daerah.
-              </p>
-            </div>
-
-            <div class="resume-item">
-              <h4>Dilarang Menghapus files tanpa izin</h4>
-              <p>
-                Dilarang menghapus file yang ada didalam google drive tanpa izin. Ini pelanggaran berat dan untuk beberapa hal bisa kami tuntut hingga ke meja hijau
-              </p>
-            </div>
-
-            <div class="resume-item redres">
-              <h4>Wajib Salah, atau kena SP</h4>
-              <blockquote>Dialogika kalau kamu nggak salah kamu akan kena SP.</blockquote>
-              <p>Jangan takut untuk take action, jangan tunggu menunggu, ingatlah kalau kesalahan membuat kita jauh lebih baik dan menjadikan kita lebih berani. Just do it!</p>
-            </div>
-
-            <div class="resume-item">
-              <h4>Izin Lebih Dari 3 Hari WAJIB Memakai Surat Tertulis</h4>
-              <p>
-                Khusus untuk izin lebih dari 3 hari karena kepentingan apapun wajib membuat surat tertulis
-              </p>
-            </div>
-
-            <div class="resume-item redres">
-              <h4>Surat Peringatan: Apabila Rules Dilanggar Terlalu Sering</h4>
-              <p>
-                Apabila melanggar rules diatas <b>terlalu sering kemudian bila diberitahu justru ngeyel</b> maka <b>dengan terpaksa</b> kami memberikan surat peringatan, apabila masih dilanggar maka sertifikat tidak bisa keluar
-              </p>
-            </div>
-
-
-          </div>
-        </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="blue-btn" data-bs-dismiss="modal">I Read Everything</button>
-        </div>
-      </div>
-    </div>
-  </div><!-- End Modal Basic Rules -->
-
-  <!-- ======= Modal Open Letter ======= -->
-  <div class="modal fade" id="open-letter" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="open-letter" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5"><strong>Dear Candidate</strong></h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body inner-page">
-          <div class="container">
-            <p class="blogs">
-              <h3>Building Career... isn't Simple</h3>
-              <p>Beberapa dari <b>kamu mungkin sudah</b> sadar</p>
-              <p>Mungkin juga belum, masih belum tau kedepannya gimana...?</p>
-              <p><b>Mau jadi apa?</b></p>
-              <p>Pengen liburan, <u>pengen</u> healing...</p>
-              <p>Skrpsi <u>belum selesai</u>, mulai menyesal mengambil jurusan saat ini.</p>
-              <p>Atau malah masih runyam sama pacar atau gebetan yang gak jelas.</p>
-              <p>That's ok... <b><strong>but time never stop</strong></b></p>
-              <p>Jika kamu <u>membaca sampai tulisan ini,</u> <b>then you care about your career</b></p>
-              <p>Bukan internship ini, bukan pula paid dan unpaid nya internship ini.</p>
-              <h3>It's time to care about you!</h3>
-              <p>Let's invest your time and energy</p>
-              <p>We have <b>challenging news</b> for you</p>
-              <p>Internship ini berlangsung selama 3 bulan dan unpaid.</p>
-              <p>dan jam kerjanya ajaib kayak trampolin</p>
-              <p>WFH dan juga WFO (khusus Jogja & Jakarta)</p>
-              <p>But this is a <b>good news</b></p>
-              <p>Kami <strong>tidak mendidik</strong> kamu menjadi karyawan</p>
-              <p>Kamu akan belajar menjadi intrapreneur dan entrepreneur</p>
-              <p>Mindset mu mengenai uang juga kami latih</p>
-              <p>Not how to make the money, but <u>how the money goes</u> to you.</p>
-              <p>Mengerti pola uang masuk, dan mempelajari sistemnya hingga <u>science</u>-nya</p>
-              <p>Then you will understand... why after this intern you will different.</p>
-              <p class="fst-italic">Now it's time to make <u><b>decision:</b></u> leave or take it!</p>
-              <p>Listen to your self, and <b>remember...</b></p>
-              <p>“Whenever you see a <u>successful man or woman</u>, they once made a <b>courageous decision.</b>”</p>
-            </p>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="blue-btn" data-bs-dismiss="modal">I'm Ready</button>
-        </div>
-      </div>
-    </div>
-  </div><!-- End Modal Open Letter -->
-
-  <!-- Modal 2 -->
-  <div class="modal popup-box fade" id="exampleModal" tabindex="-1" aria-hidden="true">
-     <div class="modal-dialog popup-box-dialog modal-dialog-centered">
-        <div class="modal-content popup-box-content">
-           <div class="popup-card" style="width:100%">
-              <button type="button" class="btn popup2-btn ms-auto" data-bs-dismiss="modal"><i
-                    class="fa-solid fa-xmark"></i></button>
-              <img src="https://i.ytimg.com/vi/1hJKq6QAb48/maxresdefault.jpg" class="card-img-top" alt="" style="border-top-left-radius: 20px;border-top-right-radius: 20px;border:0px;">
-              <div class="card-body popup-card-body">
-                 <div class="popup-title-area">
-                    <p class="popup-sub">Isikan Sekarang</p>
-                    <h5 class="card-title popup-title">Form Pendaftaran Internship</h5>
-                 </div>
-                 <a href="#" class="btn popup-play" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
-                       class="fa-solid fa-play"></i></a>
+  <div class="modal fade" role="dialog" tabindex="-1" id="showtime">
+      <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+          <div class="modal-content">
+              <div class="modal-body">
+                  <button class="btn btn-close"
+                      id="close"
+                      style="display: none;"
+                      data-bs-dismiss="modal"
+                      aria-label="Close">
+                  </button>
+                  <div class="ratio ratio-16x9">
+                      <iframe id="video"
+                          title="tube"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen">
+                      </iframe>
+                  </div>
               </div>
-              <form action="javascript:void" method="post" id="heroForm" enctype="text/plain" class="popup-form">
-                 <div class="row gy-3 mb-3">
-                    <div class="col-lg-6">
-                       <label for="names" class="form-label">Full Name</label>
-                       <input type="text" name="Name" class="form-control" id="names" pattern="[a-zA-Z\s]{3,100}" placeholder="Nama Lengkap*" required>
-                    </div>
-                    <div class="col-lg-6">
-                       <label for="locations" class="form-label">Domisili</label>
-                       <input type="text" class="form-control" name="Location" id="locations" pattern="[a-zA-Z\s]{3,100}" placeholder="Domisili*" required>
-                    </div>
-                    <div class="col-lg-6">
-                       <label for="whatsapps" class="form-label">Whatsapp</label>
-                       <input type="tel" class="form-control" name="Whatsapp" id="whatsapps" pattern="[0-9]{10,15}" placeholder="Whatsapp*" required="">
-                    </div>
-                    <div class="col-lg-6">
-                       <label for="events" class="form-label">Position</label>
-                       <select name="Division" id="divison-1" class="form-control" required>
-                         <option value="" selected disabled value="">Choose Program</option>
-                         <optgroup label="General Manager">
-                           <option>Client Manager</option>
-                           <option>Video Editing</option>
-                         </optgroup>
-                         <optgroup label="Marketing">
-                           <option>Deal Maker</option>
-                           <option>Digital Marketing</option>
-                         </optgroup>
-                         <optgroup label="Human Resource">
-                           <option>Recruiter</option>
-                           <option>People Development</option>
-                         </optgroup>
-                         <optgroup label="Social Media Manager">
-                           <option>Content Writer</option>
-                           <option>Design Specialist</option>
-                           <option>Model Talent</option>
-                           <option>HTML Writing</option>
-                         </optgroup>
-                       </select>
-                    </div>
-                    <select class="d-none" name="Timestamp">
-                      <option id="timestamp"></option>
-                    </select>
-                 </div>
-                 <button class="custom-btn2 send_contact" id="submits" onclick="HeroForm()">Send Application</button>
-              </form>
-           </div>
-        </div>
-     </div>
+          </div>
+      </div>
   </div>
   
-  <!--  Modal 3 -->
-  <div class="modal popup-box fade" id="clickup" tabindex="-1" aria-hidden="true">
-     <div class="modal-dialog popup-box-dialog modal-dialog-centered">
-        <div class="modal-content popup-box-content">
-            <div class="modal-body inner-page">
-                <iframe class="clickup-embed clickup-dynamic-height" src="https://forms.clickup.com/2307700/f/26dkm-10122/A7YM1VQHA312Y7QYYC" onwheel="" width="100%" height="100%" style="background: transparent; border: 0px solid #ccc;border-radius:8px;"></iframe><script async src="https://app-cdn.clickup.com/assets/js/forms-embed/v1.js"></script>
-            </div>
-        </div>
-     </div>
-  </div>
-
+  
+  
   <!-- Part -->
   <script src="assets/part/counting-down/count.js"></script>
   <script src="assets/part/gallery-photo/gallery.js"></script>
@@ -1099,6 +801,26 @@
    <script src="assets/js/timestamp.js"></script>
    <script src="assets/js/whatsapp.js"></script>
    <script src="assets/js/main.js"></script>
+   
+   <script>
+       const videoModal = document.getElementById('showtime');
+       if (videoModal) {
+         const modal = new bootstrap.Modal(document.getElementById('showtime')),
+           video = document.getElementById('video');
+         videoModal.addEventListener('show.bs.modal', (event) => {
+           let v = event.relatedTarget,
+             videoID = v.getAttribute('data-video'),
+             start = v.getAttribute('data-start'),
+             end = v.getAttribute('data-end'),
+             controls = v.getAttribute('data-controls'),
+             origin = window.location.hostname;
+           video.src = `https://www.youtube.com/embed/${videoID}?autoplay=1&start=${start}&end=${end}&controls=${controls}&loop=1&rel=0&origin=${origin}`;
+           let length = (end - start) * 1000;
+           if (end > 0) setTimeout(() => modal.hide(), length);
+         });
+         videoModal.addEventListener('hide.bs.modal', () => (video.src = ''));
+       }
+   </script>
 
 
 </body>

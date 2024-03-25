@@ -1366,13 +1366,17 @@
 .course-details-area .course-list-items .intro .item a {
   display: inline-block;
   color: #002147;
-  background: #ffb606;
+  background: linear-gradient(to bottom, #f9c62e 5%, #ffb13b 100%);
   padding: 2px 30px;
   border-radius: 30px;
   margin-left: 5px;
   font-weight: 600;
   font-size: 12px;
   text-transform: uppercase;
+}
+
+.course-details-area .course-list-items .intro .item a:hover {
+    background: linear-gradient(to bottom, #ffb13b 5%, #f9c62e 100%);
 }
 
 .course-details-area .course-list-items .title p::after {
