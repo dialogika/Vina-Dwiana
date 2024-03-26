@@ -37,10 +37,10 @@
   <!-- Part CSS Files -->
 
   
-  <link href="assets/part/course-detail/responsive.css" rel="stylesheet"/>
   <link href="assets/part/course-detail/flaticon-set.css" rel="stylesheet" />
   <link href="assets/part/course-detail/course.css" rel="stylesheet"/>
   <link href="assets/part/contact-append/contact.css" rel="stylesheet">
+  <link href="assets/part/course-detail/responsive.css" rel="stylesheet"/>
   
   <script src="https://kit.fontawesome.com/cdde75dea2.js" crossorigin="anonymous"></script>
   
@@ -207,9 +207,9 @@
         <div class="container">
             <div class="row">
                 <!-- Start Course Info -->
-                <div class="col-md-9">
+                <div class="col-md-9" >
                     <div class="courses-info">
-                        <h2>
+                        <h2 id="daftar">
                             Java Programming Masterclass with professional And qualified author author
                         </h2>
                         <div class="course-meta">
@@ -240,7 +240,7 @@
                                 <span>Rp. 39.000</span>
                             </div>
                             <div class="align-right">
-                                <a class="btn btn-theme-yellow effect btn-sm" href="#register" data-bs-toggle="modal" id="daftar">
+                                <a class="btn btn-theme-yellow effect btn-sm" href="#register" data-bs-toggle="modal">
                                     <i class="fas fa-chart-bar"></i> Daftar
                                 </a>
                             </div>
@@ -652,104 +652,20 @@
                             </ul>
                         </div>
                         <!-- End Sidebar Item -->
+                        
+                        <main-category></main-category>
                         <!-- Sidebar Item -->
-                        <div class="sidebars-item category">
-                            <div class="title">
-                                <h4>Courses Category</h4>
-                            </div>
-                            <ul>
-                                <li>
-                                    <a href="#">Presentation <span>23</span></a>
-                                </li>
-                                <li>
-                                    <a href="#">Personal Branding <span>0</span></a>
-                                </li>
-                                <li>
-                                    <a href="#">Teaching <span>12</span></a>
-                                </li>
-                                <li>
-                                    <a href="#">Communication <span>17</span></a>
-                                </li>
-                                <li>
-                                    <a href="#">Negotiation <span>0</span></a>
-                                </li>
-                            </ul>
-                        </div>
+                        
                         <!-- End Sidebar Item -->
                         <!-- Sidebar Item -->
-                        <div class="sidebars-item similar-courses">
-                            <div class="title">
-                                <h4>Similar Courses</h4>
-                            </div>
-                            <ul style="list-style-type: none;">
-                                <li>
-                                    <div class="thumb">
-                                        <a href="#">
-                                            <img src="https://placehold.co/800x800" alt="Thumb" class="img-fluid rounded">
-                                        </a>
-                                    </div>
-                                    <div class="info">
-                                        <a href="#">Subjects allied to Creative arts and design</a>
-                                        <div class="meta">
-                                            <span>IDR 79K</span>
-                                            <div class="rating">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star-half-alt"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="thumb">
-                                        <a href="#">
-                                            <img src="https://placehold.co/800x800" alt="Thumb" class="img-fluid rounded">
-                                        </a>
-                                    </div>
-                                    <div class="info">
-                                        <a href="#">Business and administrative subjects</a>
-                                        <div class="meta">
-                                            <span>IDR 79K</span>
-                                            <div class="rating">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="thumb">
-                                        <a href="#">
-                                            <img src="https://placehold.co/800x800" alt="Thumb" class="img-fluid rounded">
-                                        </a>
-                                    </div>
-                                    <div class="info">
-                                        <a href="#">Business and administrative subjects</a>
-                                        <div class="meta">
-                                            <span>IDR 79K</span>
-                                            <div class="rating">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star-half-alt"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                        <main-lainnya></main-lainnya>
                         <!-- End Sidebar Item -->
                     </div>
                 </div>
                 <!-- End Course Sidebar -->
             </div>
         </div>
+
     </div>
     <!-- End Course Details -->
 
@@ -872,6 +788,7 @@
    <!-- Template Main JS File -->
    <script src="assets/vendor/echarts/echarts.min.js"></script>
    <script src="assets/js/headerfooter.js"></script>
+   <script src="assets/js/category.js"></script>
    <script src="assets/js/timestamp.js"></script>
    <script src="assets/js/whatsapp.js"></script>
    <script src="assets/js/main.js"></script>
